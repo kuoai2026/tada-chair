@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="theme-color" content="#faf9f7">
+<link rel="icon" type="image/png" href="img/favicon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ta-Da® 泰達自動隨身椅 Air｜信男藥局</title>
 <meta name="description" content="信男藥局販售 Ta-Da® 泰達自動隨身椅 Air：約780g、手杖秒變座椅、六段調整、承重136kg、一年保固。嘉義朴子門市可試坐，歡迎 LINE 詢問。">
@@ -46,6 +47,8 @@ h3{font-size:18px;margin:0 0 6px;font-weight:500}
 header.top{position:sticky;top:0;z-index:50;background:rgba(250,249,247,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
 .brand{font-weight:500;font-size:17px;letter-spacing:.14em;text-decoration:none;white-space:nowrap}
+.brand{display:inline-flex;align-items:center;gap:10px}
+.brand img{height:40px;width:auto}
 .brand small{font-weight:300;color:var(--muted);font-size:12px;margin-left:10px;letter-spacing:.12em}
 nav.menu{display:flex;gap:30px}
 nav.menu a{text-decoration:none;font-size:14px;color:var(--muted);letter-spacing:.1em;transition:color .2s}
@@ -173,6 +176,7 @@ details p{margin:0 0 22px;color:var(--muted);font-size:15px}
 @media(max-width:820px){.line-sec{grid-template-columns:1fr;padding:40px 26px}.qr{display:none}}
 
 footer{background:#1c1b19;color:#9c978f;padding:56px 0 120px;font-size:13px;letter-spacing:.06em}
+.foot-logo{height:120px;width:auto;margin-bottom:20px;opacity:.9}
 footer b{color:#fff;font-weight:500;letter-spacing:.14em}
 footer p{margin:8px 0}
 
@@ -201,7 +205,7 @@ footer p{margin:8px 0}
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#top">信男藥局<small>嘉義朴子</small></a>
+    <a class="brand" href="#top"><img src="img/logo-mark.png" alt="" width="33" height="40">信男藥局<small>嘉義朴子</small></a>
     <nav class="menu" aria-label="主選單">
       <a href="#features">產品特色</a>
       <a href="#scenes">使用情境</a>
@@ -453,6 +457,7 @@ footer p{margin:8px 0}
 
 <footer>
   <div class="wrap">
+    <img class="foot-logo" src="img/logo-white.png" alt="信男藥局 Hsinnan Pharmacy" width="80" height="120" loading="lazy">
     <p><b>信男藥局</b>｜嘉義縣朴子市開元里開元路 174 號｜(05) 379-0099</p>
     <p>藥商許可執照：嘉縣藥局字第 5940011839 號</p>
     <p>Ta-Da® 為原廠商標，產品圖片與測試資料由原廠永朔實業有限公司提供。本商品為行動輔具，非醫療用品；規格、價格與庫存以門市公告為準。</p>
